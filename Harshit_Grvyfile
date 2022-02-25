@@ -10,7 +10,7 @@ pipeline {
         stage("test") {
             steps {
                 echo 'testing an application'
-               
+                echo 'testing webhooks'
             }
         }
         stage("deploy") {
